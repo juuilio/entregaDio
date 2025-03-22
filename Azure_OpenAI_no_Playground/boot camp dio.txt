@@ -1,44 +1,43 @@
-Curso azure OpenAI no PlayGround
-
 Aula 1 "Introdução":
 Conhecendo o Instrutor e apresentação geral dos objetivos
 
 Aula 2 "Deploy":
 Criar a base e setup do azure OpenAI
 
-Aula 3 "Tudo certo,vamos ver nossa UI":
-Explorando a base Ui do Azure AI Foundry
+Aula 3 "Tudo certo, vamos ver nossa UI":
+Explorando a base UI do Azure AI Foundry
 Explicação dos modelos no catálogo, tipos de inferências (tokens)
 
 Aula 4 "O que é o Playground?":
-Ambiente de testes,interface intuitiva, feedback rápido, multiplos modelos e configurações ja pré ajustadas
+Ambiente de testes, interface intuitiva, feedback rápido, múltiplos modelos e configurações já pré-ajustadas
 
 Aula 5 "Recursos do Playground":
-"Estocástica":processos radomicos
-"The Quick Brown":processo para geração de texto em LLM
+"Estocástica": processos randômicos
+"The Quick Brown": processo para geração de texto em LLM
 
 Aula 6 "Tokenização":
-Ferramenta do playgorund, tokenizer
-portugues consome mais tokens
-biblioteca tiktoken
-parametros para gerar textos
+Ferramenta do playground, tokenizer
+Português consome mais tokens
+Biblioteca tiktoken
+Parâmetros para gerar textos
 
 Aula 7 "System Message":
-Configurando parametros
+Configurando parâmetros
 
 Aula 8 "Temperatura vs. Top-P":
-temperatura 0: respostas rispidas e deterministicas, temperatura 1:improvavél, boa para criação
-top-p 0.1:só considera o primeiro eixo de palavras até dar 10% das possibilidades
-top-p 0.9:considera muitas palavras até dar o eixo de 90% das possiblidades
+Temperatura 0: respostas ríspidas e determinísticas
+Temperatura 1: improvável, boa para criação
+Top-P 0.1: só considera o primeiro eixo de palavras até dar 10% das possibilidades
+Top-P 0.9: considera muitas palavras até dar o eixo de 90% das possibilidades
 
 Aula 9 "Frequency Penalty vs. Presence Penalty":
-Frequency Penalty: o quanto o algoritmo ira punir a repetição de tokens
-Presence Penalty:diversidade tematica
+Frequency Penalty: o quanto o algoritmo irá punir a repetição de tokens
+Presence Penalty: diversidade temática
 
 Aula 10 "Multimodalidade":
-quais são os parametros para gerar uma boa imagem no Dall-E
+Quais são os parâmetros para gerar uma boa imagem no DALL-E
 
 Aula 11 "Hands-On Explorando o Playground":
-colocando em pratica os conceitos de configuração de parametros
-criando Blob Storage e conectar ao playground
-criando o chat CLI
+Colocando em prática os conceitos de configuração de parâmetros
+Criando Blob Storage e conectando ao playground
+Criando o chat CLI
