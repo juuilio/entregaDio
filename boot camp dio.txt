@@ -1,0 +1,44 @@
+Curso azure OpenAI no PlayGround
+
+Aula 1 "Introdução":
+Conhecendo o Instrutor e apresentação geral dos objetivos
+
+Aula 2 "Deploy":
+Criar a base e setup do azure OpenAI
+
+Aula 3 "Tudo certo,vamos ver nossa UI":
+Explorando a base Ui do Azure AI Foundry
+Explicação dos modelos no catálogo, tipos de inferências (tokens)
+
+Aula 4 "O que é o Playground?":
+Ambiente de testes,interface intuitiva, feedback rápido, multiplos modelos e configurações ja pré ajustadas
+
+Aula 5 "Recursos do Playground":
+"Estocástica":processos radomicos
+"The Quick Brown":processo para geração de texto em LLM
+
+Aula 6 "Tokenização":
+Ferramenta do playgorund, tokenizer
+portugues consome mais tokens
+biblioteca tiktoken
+parametros para gerar textos
+
+Aula 7 "System Message":
+Configurando parametros
+
+Aula 8 "Temperatura vs. Top-P":
+temperatura 0: respostas rispidas e deterministicas, temperatura 1:improvavél, boa para criação
+top-p 0.1:só considera o primeiro eixo de palavras até dar 10% das possibilidades
+top-p 0.9:considera muitas palavras até dar o eixo de 90% das possiblidades
+
+Aula 9 "Frequency Penalty vs. Presence Penalty":
+Frequency Penalty: o quanto o algoritmo ira punir a repetição de tokens
+Presence Penalty:diversidade tematica
+
+Aula 10 "Multimodalidade":
+quais são os parametros para gerar uma boa imagem no Dall-E
+
+Aula 11 "Hands-On Explorando o Playground":
+colocando em pratica os conceitos de configuração de parametros
+criando Blob Storage e conectar ao playground
+criando o chat CLI
